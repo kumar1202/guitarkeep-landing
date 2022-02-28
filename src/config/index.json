@@ -1,29 +1,10 @@
 {
   "company": {
-    "name": "React landing page 2021",
-    "logo": "/assets/images/logo.png"
+    "name": "GuitarKeep",
+    "logo": "/assets/images/guitarkeep-logo.png"
   },
-  "navigation": [
-    {
-      "name": "Product",
-      "href": "product"
-    },
-    {
-      "name": "Features",
-      "href": "features"
-    },
-
-    {
-      "name": "Pricing",
-      "href": "pricing"
-    },
-    {
-      "name": "About",
-      "href": "about"
-    }
-  ],
   "callToAction": {
-    "text": "Get started",
+    "text": "Get early access now!",
     "href": "#"
   },
   "mainHero": {
@@ -124,9 +105,7 @@
   "about": {
     "sections": [],
     "socialMedia": {
-      "github": "https://github.com/issaafalkattan",
-      "twitter": "https://twitter.com/issaafkattan",
-      "linkedin": "https://www.linkedin.com/in/issaaf-kattan/"
+      "twitter": "https://twitter.com/guitarkeep_app"
     }
   }
 }

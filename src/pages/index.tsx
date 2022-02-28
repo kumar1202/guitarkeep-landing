@@ -1,5 +1,7 @@
 import React from 'react';
 
+import Head from 'next/head';
+
 import About from '../components/About';
 import Analytics from '../components/Analytics';
 import Canvas from '../components/Canvas';
@@ -9,11 +11,15 @@ import LazyShow from '../components/LazyShow';
 import MainHero from '../components/MainHero';
 import MainHeroImage from '../components/MainHeroImage';
 // import Pricing from '../components/Pricing';
-import Product from '../components/Product';
+// import Product from '../components/Product';
 
 const App = () => {
   return (
     <div className={`bg-background grid gap-y-16 overflow-hidden`}>
+      <Head>
+        <title>GuitarKeep | Early Access!</title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      </Head>
       <div className={`relative bg-background`}>
         <div className="max-w-7xl mx-auto">
           <div
@@ -26,12 +32,12 @@ const App = () => {
         <MainHeroImage />
       </div>
       {/* <Canvas /> */}
-      <LazyShow>
+      {/* <LazyShow>
         <>
           <Product />
-          {/* <Canvas /> */}
+          {<Canvas />}
         </>
-      </LazyShow>
+      </LazyShow> */}
       {/* <LazyShow>
         <>
           <Features />

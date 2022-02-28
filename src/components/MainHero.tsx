@@ -25,7 +25,7 @@ const MainHero = () => {
           <iframe
             src="https://tally.so/embed/w4Yjdn?alignLeft=1&hideTitle=1"
             width="85%"
-            height="150"
+            height="180"
             title="Early Access"
           ></iframe>
         </div>
